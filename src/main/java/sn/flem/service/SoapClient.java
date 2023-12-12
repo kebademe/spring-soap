@@ -18,7 +18,7 @@ public class SoapClient {
         this.restTemplate = restTemplate;
     }
 
-    public String sendSoapRequest(String requestXml,String url) {
+    public  String sendSoapRequest(String requestXml,String url) {
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.TEXT_XML);
